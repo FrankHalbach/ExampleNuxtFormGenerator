@@ -91,6 +91,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-    // transpile: ['vuetify', /@koumoul/], // necessary for "à la carte" import of vuetify components 
-  }
+     //transpile: [/^vuetify/, /@koumoul/], // necessary for "à la carte" import of vuetify components 
+  } 
 }
